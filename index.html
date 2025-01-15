@@ -10,8 +10,7 @@
 <body>
     <section class="container">
         <header>
-            <h1>Task given by Hurmat Ayub
-            </h1>
+            <h1>Simple Website using HTML and CSS</h1>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz7tkp7RwYEvJM0dJ7K91L5ZDQ6lXOJdXDbA&s" alt="profile-pic" class="profile-pic">
             <div class="dropdown-menu">
                 <p>Asma Iqbal</p>
@@ -19,7 +18,7 @@
         </header>
 
         <div class="content-container">
-            <div class="sidebar">
+            <nav class="sidebar">
                 <div class="navbar">
                     <ul>
                         <li><a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a></li>
@@ -29,33 +28,18 @@
                         <li><a href="#"><i class="fa fa-gear"></i> Settings</a></li>
                     </ul>
                 </div>
-            </div>
+            </nav>
 
-            <div class="main-content">
+            <main class="main-content">
                 <article>
-                    <h1>Contact Us</h1>
-                    <form>
-                        <fieldset>
-                            <legend>Personal Information</legend>
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" placeholder="Enter your name" required><br><br>
-
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" placeholder="Enter your email" required><br><br>
-
-                            <label for="phone">Phone:</label>
-                            <input type="tel" id="phone" placeholder="Enter your phone number" required><br><br>
-
-                            <label for="address">Address:</label>
-                            <input type="text" id="address" placeholder="Enter your address" required>
-                        </fieldset>
-                        <fieldset>
-                            <label for="sign">Sign me up for email updates</label>
-                            <input type="button" name="submit" value="Submit Review">
-                        </fieldset>
-                    </form>
+                    <h1>Welcome to Our Website!</h1>
+                    <p class="tagline">Your journey to knowledge starts here.</p>
+                    <div class="button-container">
+                        <button onclick="alert('Submit button clicked!')">Submit</button>
+                        <button onclick="alert('Subscribe button clicked!')">Subscribe</button>
+                    </div>
                 </article>
-            </div>
+            </main>
         </div>
         
         <footer>
@@ -64,7 +48,6 @@
                 <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
                 <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
                 <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
-                <a href="#"><i class="fa fa-discord fa-2x"></i></a>
                 <p>2024 &copy; All rights reserved.</p>
             </div>
         </footer>
